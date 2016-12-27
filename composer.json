@@ -1,5 +1,5 @@
 {
-    "name": "flarum-ext-simplified-chinese",
+    "name": "jc198651/flarum-ext-simplified-chinese",
     "type": "flarum-extension",
     "description": "Simplified Chinese language pack for Flarum",
     "keywords": ["locale"],
