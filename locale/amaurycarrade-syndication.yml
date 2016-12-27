@@ -1,0 +1,20 @@
+amaurycarrade-syndication:
+  forum:
+    autodiscovery:
+      forum_activity: "论坛帖子及回复"
+      forum_new_discussions: "论坛最新帖子"
+      tag_activity: "{tag} 版块帖子及回复"
+      tag_new_discussions: "{tag} 版块最新帖子"
+      discussion_last_posts: "本帖中的回复"
+    feeds:
+      titles:
+        main_title: "{forum_name}"
+        main_subtitle: "论坛最新帖子及回复"
+        main_d_title: "{forum_name} 帖子"
+        main_d_subtitle: "论坛最新帖子"
+        tag_title: "{tag} 版块帖子及回复"
+        tag_subtitle: "{tag} 版块帖子及回复"
+        tag_d_title: "{tag} 版块最新帖子"
+        tag_d_subtitle: "{tag} 版块最新帖子"
+        discussion_title: "{discussion_name}"
+        discussion_subtitle: "本帖中的回复"
