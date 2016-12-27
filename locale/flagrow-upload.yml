@@ -1,0 +1,54 @@
+flagrow-upload:
+    forum:
+        buttons:
+            attach: 上传
+        states:
+            loading: 上传中
+            success: 上传成功
+            error: 上传失败
+    admin:
+        permissions:
+            upload_label: 上传文件
+        upload_methods:
+            local: 本地
+            aws-s3: 亚马逊 S3
+            imgur: Imgur
+        labels:
+            upload_method: 上传方式
+            preferences:
+                title: 偏好设置
+                max_file_size: 最大文件大小 (单位 KB)
+                mime_types_allowed: 使用正则表达式指定允许上传的 mime 类型
+            resize:
+                title: 图片缩放
+                toggle: 缩放图片
+                max_width: 最大图片宽度
+                max_height: 最大图片高度
+            watermark:
+                title: 图片水印
+                toggle: 图片水印
+                position: 水印位置
+                file: 上传水印图片
+            local:
+                title: 本地存储设置
+                cdn_url: CDN 链接 (在文件前)
+            imgur:
+                title: Imgur 图片存储设置
+                client_id: Imgur 用户端 ID
+            aws-s3:
+                title: AWS S3 存储设置
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: 区域
+        buttons:
+            save: 保存
+        help_texts:
+            description: >
+                配置上传扩展及偏好设置
+            upload_method: >
+                你可以在这里选择文件上传方式。当你选择其中一种时，对应设置项将会出现
+            resize: >
+                你可以选择是否在上传图片前调整图片大小，你也可以设置图片的最大长宽（px），图片大小的调整将会保持图片的长宽比例
+            watermark: >
+                在图片上传时添加水印，仅支持非 gif 图片
